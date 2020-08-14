@@ -1,0 +1,29 @@
+{
+    "schemaVersion": 1,
+    "id": "beenevolent",
+    "version": "${version}",
+    "license": "MIT",
+
+    "name": "Beenevolent",
+    "description": "Beeeeees",
+    "icon": "pack.png",
+
+    "authors": [
+        "Dodo Gang"
+    ],
+    "contact": {
+        "homepage": "https://beenevolent.dodogang.net",
+        "souces": "https://github.com/dodogang/beenevolent"
+    },
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.dodogang.beenevolent.Beenevolent"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.4.0",
+        "fabric": "*"
+    }
+}
