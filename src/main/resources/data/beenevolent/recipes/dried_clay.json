@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:blasting",
-    "ingredient": {
-        "item": "minecraft:clay"
-    },
-    "result": "beenevolent:dried_clay",
-    "experience": 0,
-    "cookingtime": 60
-}

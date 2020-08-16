@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "top": "beenevolent:block/acacia_hive_end",
+    "bottom": "beenevolent:block/acacia_hive_end",
+    "side": "beenevolent:block/acacia_hive_side",
+    "front": "beenevolent:block/acacia_hive_front",
+    "particle": "beenevolent:block/acacia_hive_side"
+  }
+}

@@ -1,10 +1,8 @@
 package net.dodogang.beenevolent.init;
 
 import net.dodogang.beenevolent.Beenevolent;
-import net.minecraft.block.AbstractBlock;
+import net.dodogang.beenevolent.block.*;
 import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.MaterialColor;
 import net.minecraft.block.SignBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,7 +10,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class BVBlocks {
-    public static final Block DRIED_CLAY = register("dried_clay", new Block(AbstractBlock.Settings.of(Material.STONE, MaterialColor.RED_TERRACOTTA).requiresTool().strength(1.25F, 4.2F)));
+    public static final HoneyedTerracottaBlocks HONEYED_TERRACOTTA = new HoneyedTerracottaBlocks();
+    public static final ExtendedHiveBlocks EXTENDED_HIVES = new ExtendedHiveBlocks();
 
     public BVBlocks() {}
 

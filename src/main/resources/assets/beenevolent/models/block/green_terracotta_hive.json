@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "beenevolent:block/green_terracotta_hive"
+    }
+}

@@ -1,5 +1,6 @@
 package net.dodogang.beenevolent;
 
+import net.dodogang.beenevolent.block.HoneyedTerracottaBlocks;
 import net.dodogang.beenevolent.init.*;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
@@ -17,7 +18,7 @@ public class Beenevolent implements ModInitializer {
 
     public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(
         new Identifier(MOD_ID, "item_group"),
-        () -> new ItemStack(BVBlocks.DRIED_CLAY)
+        () -> new ItemStack(HoneyedTerracottaBlocks.BASE)
     );
 
     public static Logger LOGGER = LogManager.getLogger();
