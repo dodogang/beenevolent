@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "beenevolent:block/pink_terracotta_hive_block",
+        "down": "beenevolent:block/pink_terracotta_hive_block",
+        "up": "beenevolent:block/pink_terracotta_hive_block",
+        "north": "beenevolent:block/pink_terracotta_hive_front_honey",
+        "east": "beenevolent:block/pink_terracotta_hive_block",
+        "south": "beenevolent:block/pink_terracotta_hive_block",
+        "west": "beenevolent:block/pink_terracotta_hive_block"
+    }
+}
