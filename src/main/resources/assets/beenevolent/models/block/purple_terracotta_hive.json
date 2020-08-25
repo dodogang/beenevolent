@@ -1,6 +1,12 @@
 {
-    "parent": "minecraft:block/cube_all",
+    "parent": "block/cube",
     "textures": {
-        "all": "beenevolent:block/purple_terracotta_hive"
+        "particle": "beenevolent:block/purple_terracotta_hive_block",
+        "down": "beenevolent:block/purple_terracotta_hive_block",
+        "up": "beenevolent:block/purple_terracotta_hive_block",
+        "north": "beenevolent:block/purple_terracotta_hive_front",
+        "east": "beenevolent:block/purple_terracotta_hive_block",
+        "south": "beenevolent:block/purple_terracotta_hive_block",
+        "west": "beenevolent:block/purple_terracotta_hive_block"
     }
 }

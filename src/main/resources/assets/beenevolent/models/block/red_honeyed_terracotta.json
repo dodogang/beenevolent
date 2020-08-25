@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:block/cube_all",
     "textures": {
-        "all": "beenevolent:block/red_honeyed_terracotta"
+        "all": "beenevolent:block/red_terracotta_hive_block"
     }
 }
